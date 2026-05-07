@@ -1,6 +1,5 @@
 # Git Learning Playground 🚀
 
-
 Welcome to **GitDemo Project2**! This is my personal sandbox for diving deep into the world of Git.My name is Anuj. If you're here, you're probably curious about version control, branching, merging, and all that jazz. Let's make Git fun and less intimidating!
 
 
