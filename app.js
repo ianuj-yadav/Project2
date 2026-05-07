@@ -2,6 +2,7 @@
  * Smooth Transitions and Interactive Animations
  * This script handles parallax eye-tracking, state-based animations,
  * and button-triggered interactions for the character. - button
+ * and button-triggered interactions for the character. -form
  */
 
 document.addEventListener('DOMContentLoaded', () => {
