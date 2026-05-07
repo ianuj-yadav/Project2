@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to My Project</h1>
+    <div id="human-figure">
+        <div id="head"></div>
+        <div id="body"></div>
+        <div id="arm-left"></div>
+        <div id="arm-right"></div>
+        <div id="leg-left"></div>
+        <div id="leg-right"></div>
+    </div>
+    <style>
+        #human-figure {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100px;
+            height: 200px;
+        }
+        #head {
+            width: 40px;
+            height: 40px;
+            background-color: #f0c674;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            left: 30px;
+            cursor: pointer;
+        }
+        #body {
+            width: 20px;
+            height: 80px;
+            background-color: #81a2be;
+            position: absolute;
+            top: 40px;
+            left: 40px;
+        }
+        #arm-left {
+            width: 30px;
+            height: 10px;
+            background-color: #f0c674;
+            position: absolute;
+            top: 50px;
+            left: 10px;
+            transform-origin: right;
+            animation: wave 2s infinite;
+        }
+        #arm-right {
+            width: 30px;
+            height: 10px;
+            background-color: #f0c674;
+            position: absolute;
+            top: 50px;
+            left: 60px;
+        }
+        #leg-left {
+            width: 10px;
+            height: 50px;
+            background-color: #b294bb;
+            position: absolute;
+            top: 120px;
+            left: 35px;
+        }
+        #leg-right {
+            width: 10px;
+            height: 50px;
+            background-color: #b294bb;
+            position: absolute;
+            top: 120px;
+            left: 55px;
+        }
+        @keyframes wave {
+            0%, 100% { transform: rotate(0deg); }
+            50% { transform: rotate(45deg); }
+        }
+    </style>
+    <script>
+        document.getElementById('head').addEventListener('click', function() {
+            alert('Hi myself Anuj');
+        });
+    </script>
+    
+</body>
+</html>
