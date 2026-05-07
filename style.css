@@ -267,3 +267,35 @@ main {
     text-align: center;
   }
 }
+
+/* --- Interactive Animation Classes --- */
+
+.anim-wave .arm.left {
+    animation: wave-fast 0.6s ease-in-out infinite alternate !important;
+}
+
+.anim-jump {
+    animation: jump-anim 0.8s cubic-bezier(0.45, 0, 0.55, 1) infinite !important;
+}
+
+.anim-shiver {
+    animation: shiver-anim 0.2s linear infinite !important;
+}
+
+@keyframes wave-fast {
+    from { transform: rotate(-20deg); }
+    to { transform: rotate(-120deg); }
+}
+
+@keyframes jump-anim {
+    0%, 100% { transform: translateY(0) scale(1); }
+    50% { transform: translateY(-60px) scale(0.95, 1.05); }
+}
+
+@keyframes shiver-anim {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    25% { transform: translate(-1px, -1px) rotate(-1deg); }
+    50% { transform: translate(-1px, 1px) rotate(1deg); }
+    75% { transform: translate(1px, -1px) rotate(0deg); }
+    100% { transform: translate(1px, 1px) rotate(0deg); }
+}
