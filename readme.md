@@ -56,4 +56,4 @@ This project is licensed under the MIT License-see the [LICENSE](LICENSE) file f
 
 ---
 
-Happy Gitting! 🎉 If you have questions, feel free to reach out. Remember, Git is powerful, but with great power comes great responsibility (and sometimes confusing merge conflicts). Let's conquer them!
+Happy Gitting! 🎉 If you have questions, feel free to reach out. Remember, Git is powerful, but with great power comes great responsibility (and sometimes confusing merge conflicts). Let's conquer them.
