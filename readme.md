@@ -24,7 +24,7 @@ This repository is a hands-on playground where I experiment with Git commands, w
 2. **Explore Branches**:
    ```bash
    git branch -a  # See all branches
-   git checkout feature-branch  # Switch to a branch
+   git checkout feature-branch.  # Switch to a branch
    ```
 
 3. **Make Changes**:
