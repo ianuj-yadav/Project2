@@ -9,7 +9,6 @@ This repository is a hands-on playground where I experiment with Git commands, w
 ### Key Features:
 - **Branching Experiments**: Creating, switching, and merging branches like a pro.
 - **Commit Histories**: Tracking changes and understanding the timeline.
-- **Collaboration Sim**: Pretending to work with a team (or future me).
 - **Git Tools**: Exploring rebase, stash, and other advanced goodies.
 
 ## 🛠️ Getting Started
